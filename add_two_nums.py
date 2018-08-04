@@ -7,7 +7,6 @@
 # Explanation: 342 + 465 = 807.
 
 # from copy import deepcopy,copy
-
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
