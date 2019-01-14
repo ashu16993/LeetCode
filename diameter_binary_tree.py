@@ -22,18 +22,6 @@ Note: The length of path between two nodes is represented by the number of edges
 #         self.right = None
 
 class Solution(object):
-    # def distance_from_root_left(self,root):
-    #     if root.left is None:
-    #         return 0
-    #     else:
-    #         return (self.distance_from_root_left(root.left) + 1)
-    # def distance_from_root_right(self,root):
-    #     if root.right is None:
-    #         return 0
-    #     else:
-    #         return (self.distance_from_root_right(root.right) + 1)
-    # def distance_from_root(self,root):
-    #     return self.distance_from_root_right(root)+self.distance_from_root_left(root)
     def get_depth(self,root):
         if root is None:
             return 0
